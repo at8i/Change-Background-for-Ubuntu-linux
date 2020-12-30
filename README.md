@@ -9,8 +9,8 @@ to change background in your Ubuntu(or other Ubuntu based distros).
 1. [Adding to startup](#Adding-to-startup)
 
 ## Installation
-1. Download the file.
-2. Unzip it.
+1. Download the file. ` git clone https://github.com/at8i/Change-Background-for-Ubuntu-linux`
+2. cd into it : `cd Change-Background-for-Ubuntu-linux`
 3. You have 2 options now. Move it `/usr/local/bin/` or move it to your shellscript folder.
 4. `cd /to/your/folder` and `sudo chmod +x changeBG.sh` .
 5. Now open the file with your favorite editor and enter the path to you wallpapers folder
