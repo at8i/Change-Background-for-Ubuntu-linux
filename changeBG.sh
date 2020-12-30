@@ -1,4 +1,5 @@
 #!/bin/sh
+#A great tool to download good walpapers from commandline without foss
 #redditdl.py wallpaper ~/Pictures/RedditWallpapers/ --score 1000 --update
 check_status()
 {
@@ -7,6 +8,7 @@ check_status()
 }
 path()
 {
+#full path to you wallpaper folder example shown below:
 find "/home/at8i/Pictures/RedditWallpapers" | shuf -n 1
 }
 file()
@@ -19,5 +21,5 @@ gsettings set org.gnome.desktop.background picture-uri $gsettings_path
 while :
 do
     check_status
-    sleep 300 #every 5 mins
+    sleep 300 #every 5 mins , change it to what you like
 done
