@@ -11,10 +11,10 @@ to change background in your Ubuntu(or other Ubuntu based distros).
 ## Installation
 1. Download the file. ` git clone https://github.com/at8i/Change-Background-for-Ubuntu-linux`
 2. cd into it : `cd Change-Background-for-Ubuntu-linux`
-3. You have 2 options now. Move it `/usr/local/bin/` or move it to your shellscript folder.
-4. `cd /to/your/folder` and `sudo chmod +x changeBG.sh` .
+3. You have 2 options now. Move it `/usr/local/bin/` or move it to your shellscript folder. Whichever you are comfortable with.
+4. Chane directory int the chosen folder `cd /to/your/folder` and make the file executable `sudo chmod +x changeBG.sh` .
 5. Now open the file with your favorite editor and enter the path to you wallpapers folder
-and you can also change the time interval for background change in seconds.(with sudo privilages)
+    and you can also change the time interval for background change in seconds(with sudo privilages if you have moved to /usr/local/bin).
 ## Adding to startup
 1. Open the "Startup Applications" program and add shell file to it.
 2. Restart your system.

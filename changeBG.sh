@@ -1,6 +1,4 @@
 #!/bin/sh
-#A great tool to download good walpapers from commandline without foss
-#redditdl.py wallpaper ~/Pictures/RedditWallpapers/ --score 1000 --update
 check_status()
 {
     path
