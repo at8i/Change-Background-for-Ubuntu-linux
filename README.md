@@ -7,6 +7,7 @@ Download the wallpapers that you want from reddit with RedditImageGrab and use t
 to change background in your Ubuntu(or other Ubuntu based distros).
 1. [Installation](#Installation)
 1. [Adding to startup](#Adding-to-startup)
+1. [Note](#Note)
 
 ## Installation
 1. Download the file. ` git clone https://github.com/at8i/Change-Background-for-Ubuntu-linux`
@@ -20,3 +21,5 @@ to change background in your Ubuntu(or other Ubuntu based distros).
 2. Restart your system.
 
 Now you are done.
+## Note
+If you are not an Ubuntu user, you can use cron or crontabs to setup an schedule for the script thus you need to modify the script to satisfy your needs.
